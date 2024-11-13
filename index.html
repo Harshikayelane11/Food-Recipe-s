@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Restoran - Bootstrap Restaurant Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>Food Recipe</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0 pe-4">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link">Categories</a>
+                        <a href="menu.html" class="nav-item nav-link">Favorites</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Type</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="booking.html" class="dropdown-item">All Course</a>
+                                <a href="team.html" class="dropdown-item">Our Team</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <a href="" class="btn btn-primary py-2 px-4">Book A Course</a>
+                </div>
+            </nav>
+
+            <div class="container-xxl py-5 bg-dark hero-header mb-5">
+                <div class="container my-5 py-5">
+                    <div class="row align-items-center g-5">
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <h1 class="display-3 text-white animated slideInLeft">Enjoy Our<br> Food Recipe's</h1>
+                            <p class="text-white animated slideInLeft mb-4 pb-2">Explore our detailed and easy-to-follow descriptions of mouthwatering recipes. From savory dinners to sweet treats, we provide everything you need to create amazing dishes, right at your fingertips!</p>
+                            
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-end overflow-hidden">
+                            <img class="img-fluid" src="img/hero.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="row g-3">
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="img/blog-2.jpg">
+                            </div>
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="img/event-2.jpg" style="margin-top: 25%;">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="img/about-3.jpg">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="img/about-4.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h5 class="section-title ff-secondary text-start text-primary fw-normal">About Us</h5>
+                        <h1 class="mb-4">Welcome to <i class="fa fa-utensils text-primary me-2"></i>Recipe's</h1>
+                        <p class="mb-4">Discover a world of delicious food recipes, curated just for you. Whether you're a seasoned chef or a beginner in the kitchen, we have something for everyone. Dive into our collection, explore new flavors, and let us guide you step-by-step to create the perfect meal.</p>
+                        <p class="mb-4">Happy cooking!</p>
+                        
+                        <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Menu Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal"> Favorite Food Recipe </h5>
+                    <h1 class="mb-5">Most Popular Recipe's</h1>
+                </div>
+                <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
+                                <i class="fa fa-coffee fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Popular</small>
+                                    <h6 class="mt-n1 mb-0">Breakfast</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
+                                <i class="fa fa-hamburger fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Special</small>
+                                    <h6 class="mt-n1 mb-0">Launch</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
+                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Lovely</small>
+                                    <h6 class="mt-n1 mb-0">Dinner</h6>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/dosa.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Moong Dal Dosa</span>
+                                                
+                                            </h5>
+                                            <small class="fst-italic">1 cup moong dal, 3/4 inch ginger, 1to2 freen chilies, 2 dried red chilies, 3/4 teaspoon cumin, 1/3 teaspoon salt, 1 cup water, 2 tablespoon ghee or oil to cook.
+                                                <br> <h6><span>Preparetion</span></h6>1.Rinse moong dal thrice and drain the water.Soak them for 15 to 20 mins.
+                                                <br>2.Add them to a grinder jar along with salt,ginger,green chilies,red chilies,cumin,and 1 cup water.
+                                                <br>3.Grind to a smooth thick, poure more water and blend.
+                                                <br> <h6><span>How to Make Moong Dal Dosa</span></h6>*If using cast iron pan,heat it well.once hot drizzel a few drops of oil and spread it well. the sprinkle little water and turn down the heat to low.
+                                                <br>*Pour a ladle full of batter to the center of the pan.Spread the batter in circular pattern to make dosa.
+                                                <br>*Sprinkle little ghee towords the edges.let cook on a mediumhigh heat until golden.
+                                                <br>*Serve moong dal dosa hot with your favorite chutney.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/idli.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Idli</span>
+                                                
+                                            </h5>
+                                            <small class="fst-italic">1 cup urad dal, 2 cup idli rice,2 tablespoon thick poha, 1/2 teaspoon fenugreek seeds, 3/4 cup chilled water, 3/4 cup water.
+                                                <br> <h6><span>Preparetion</span></h6>1.Add urad dal &methi seed to a bowl. Add idli rice to another bowl.
+                                                <br>2.Wah and soak them separately in lot of water at least 6hrs.
+                                                <br>3.Rinse and soak poha with 1/4 cup water for about 30 min before blending.
+                                                <br> <h6><span>How to Make Idli</span></h6>*After 6 hrs, drain the water from both the bowls.and add dal, methi, poha, salt, water to blender jar or wet grinder.
+                                                <br>*Add rice to blender with water.and transfer this to the urad dal batter and mix well.
+                                                <br>*set the batter aside in a warm place for at least 8 to 12hrs.then make idli on a high flame,bring water to boil in an idli steamer.and fill the molds with batter.
+                                                <br>*Cover and steam for exactly 10 min on high flame.
+                                                <br>*Serve idli hot with sambar & chutney.
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/medu-vada.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Medu Vada</span>
+                                                
+                                            </h5>
+                                            <small class="fst-italic">1 cup urad dal, 1/3 teaspoon salt, oil, 2 to 3 green chilies, 1teaspoon ginger garlic pest, ice cold water.
+                                                <br> <h6><span>Preparetion</span></h6>1.Wash dal and soak in water for at least 4 to 5 hrs.
+                                                <br>2.Drain water completely and transfer dal to grinder jar,and saltthen start grinding.
+                                                <br>3.Whenever needed sprinkle only as much as 1 1/2 tsps, ice cold water evenly.again continue to grind to a coarse thick and fluffy batter.
+                                                <br> <h6><span>How to Make Medu Vada</span></h6>*Heat oil in a deep heavy bottom kadai on a medium heat till hot enough.
+                                                <br>*Take small portion of batter. shape to a ball,slightly flatten with thumb.
+                                                <br>*Dip the thumb in water,make a hole in the center.gently slide the vada in the hot oil.
+                                                <br>*Fry medu vada till they turn golden on both side and regulate flame to medium.
+                                                <br>*Serve Medu vada with coconut chutney,or sambar.
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/appe.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Appe</span>
+                                                
+                                            </h5>
+                                            <small class="fst-italic">2 tablespoon oil, 1/2 teaspoon cumin seeds, 2spring curry leaves, 1to2 green chilies, 1cup rava, 1/2teaspoon salt, 1cup water, 1/2 cup yogurt,1 tablespoon oil.
+                                                <br> <h6><span>Preparetion</span></h6>1.Add the  oil to large pan and heat it.turn the low flame and add the cumin seeds,curryleaves,chilies for about a minute.
+                                                <br>2.Add the rava,and turn off.add salt and cool completely.
+                                                <br>3.pour water and mix 10 min, and mix the yogurtand mix well.
+                                                <br> <h6><span>How to Make Appe</span></h6>*Heat the appe pan on medium flameand 1/2 teaspoon oilto each cavity.
+                                                <br>*Pour the batter to fill the cavities just until the rim, and cover and cook until base is firm,golden and crispy.
+                                                <br>*Using skewer or wooden apppe spatula turn them to the other side.
+                                                <br>*Serve instant Appe with Coconut chutney,tomato chutney.
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/poha.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Kanda Poha</span>
+                                                
+                                            </h5>
+                                            <small class="fst-italic">1.5 cup poha, 1 tsp sugar, ¾ tsp salt, ¼ tsp turmeric, 2 tbsp oil,2 tbsp peanut,2 chilli, 1 onion,¼ tsp turmeric, ¼ tsp salt, 2 tbsp coriander,
+                                                <br> <h6><span>Preparetion</span></h6>1.Take poha in a large strainer.Wash it 1-2 times by gently swifting them with your fingers under running water. 
+                                                <br>2.Drain the excess water through a strainer. Sprinkle salt and sugar over it, mix/toss well and keep aside.
+                                                <br>3.Add green chilies, curry leaves, peanuts and Add chopped onions,Add chopped potatoes and salt.
+                                                <br> <h6><span>How to Make Kanda Poha</span></h6>*Heat 2-tablespoons oil in a pan.and add the Onion,potato,Curry Leaves, Green Chili, peanuts and mix well.
+                                                <br>*potatoes turn tender. This will take around 3-4 minutes.Add turmeric powder.Mix well and cook for a minute.
+                                                <br>*Add soaked poha and Mix well. Cook for 2-3 minutes. Add lemon juice,and finely chopped coriander leaves.
+                                                <br>*Mix well and turn off the flame. Batata poha is ready for serving.
+                                                </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/sabudana-khichdi.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Sabudana Khichdi</span>
+                                                
+                                            </h5>
+                                            <small class="fst-italic">3/4 cup small pearl Sabudana,2 Green Chillies, 5-7 Curry Leaves,2 medium Potatoes, 1/3 cup Roasted Peanuts,1/4 teaspoon Turmeric Powder,
+                                                2 teaspoons Fresh Lemon Juice,2 teaspoons Sugar,Salt,2 tablespoons Cooking Oil.
+                                                <br> <h6><span>Preparetion</span></h6>1.Wash and soak 3/4 cup sabudana in 1/2 cup water for 2 hours.After 2 hours, you will notice that its size has increased to almost double.
+                                                <br>2.Drain excess water, if any, and transfer it to a colander or a plate. Let it stand for 2 hours. If you do not let it stand for some time, then they may turn sticky while cooking.
+                                                <br>3. Cut the green chilli and curry leaves and boiled potatoes, crushed peanuts,lemon juice, sugar and garam masala powder.
+                                                <br> <h6><span>How to Make sabudana Khichdi</span></h6>*Heat oil or ghee over medium flame in a heavy based aluminum or non-stick pan.Add cumin seeds in heated oil.and add green chilli and curry leaves and sauté for 10 seconds.
+                                                <br>*Add drained sabudana and mix thoroughly. Cook for 2-3 minutes while stirring continuously.Add turmeric powder and salt, mix well.
+                                                <br>*Cook for 7-8 minutes over medium flame until sabudana turns translucent.Add boiled potatoes, coarsely crushed peanuts, grated coconut, lemon juice, sugar and garam masala powder.
+                                                <br>*Mix well and cook for 3 minutes,Turn off the flame. Transfer khichdi to a serving bowl and garnish with coriander leaves.
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                                
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/veg-biryani.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Veg-Biryani</span>
+                                                
+                                            </h5>
+                                            <small class="fst-italic"> 2 tablespoons oil, onion, ½ teaspoon cumin seed, 1 tablespoon garlic paste, 1 tomato, potato, carrot, salt, red chile pepper,black pepper,  ½ teaspoon garam masala,turmeric, 2 cups basmati rice.
+                                                <br> <h6><span>How to Make Veg-Biryani</span></h6>1.Melt oil in a large Dutch oven over medium heat. Add onion, and cook until softened, about 3 minutes. Stir in cumin seed, cinnamon stick, and peppercorns; cook until the spices are fragrant, and the cumin seeds begin to pop, about 3 minutes.
+                                                <br>2.Stir in ginger garlic paste, tomatoes, and 1/2 cup water. Bring to a simmer, and cook until the water has evaporated, about 5 minutes. Stir in peas, carrot, and potato. Season with chicken bouillon, salt, red chile, black pepper, garam masala, and turmeric. Stir well, then cover, and cook for 3 minutes.
+                                                <br>3.Pour in 4 cups water and bring to a boil over high heat. Once boiling, stir in basmati rice, reduce heat to medium, recover, and simmer for 10 minutes. Reduce heat to low and continue to cook until the rice has softened, 10 to 15 minutes more.
+                                                
+                                                </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/curd-rice-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Curd Rice</span>
+                                                
+                                            </h5>
+                                            <small class="fst-italic">2cups cooked rice,2cups curds, 1cup milk, 10curry leaves, 2red chilies, 1teaspoon cumin seed, 2tablespoons oil, 1tablespoon chana dal, salt, sugar,coriander leaves.
+                                                <br> <h6><span>How to Make Curd Rice</span></h6>1.Take rice in a pressure cooker, add in 4 cups of water, cook it for 5 whistle. Simmer for 5 mins and turn off the stove, let the pressure go all by itself. Open the cooker and mash it up with a spoon. Let the rice get to room temp.
+                                                <br>2.Now add in salt, curd and milk to the rice and mix well. Add in cucumber, carrot and green chilli and mix well.Heat oil in a small pan. Add in tempering ingredients. Mustard seeds, split urad dal, curry leaves. You can add green chillies in tempering.Let the spices sizzle in the oil for a full minute for the flavours to develop and gets toasty.
+                                                <br>3.Now make tempering by heating oil and crackling all the spices and ginger. Let them get golden. Pour this over the rice and mix well. Add in coriander leaves and mix well. Put it in the fridge for 1 hour. Serve with pickle.
+                                               </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-3" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Burger</span>
+                                                <span class="text-primary">$115</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Menu End -->
+
+
+        <!-- Reservation Start -->
+        <div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <div class="video">
+                        <button type="button" class="btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-6 bg-dark d-flex align-items-center">
+                    <div class="p-5 wow fadeInUp" data-wow-delay="0.2s">
+                        <h5 class="section-title ff-secondary text-start text-primary fw-normal">Reservation</h5>
+                        <h1 class="text-white mb-4">Book A Course Online</h1>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                        <label for="name">Your Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                        <label for="email">Your Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating date" id="date3" data-target-input="nearest">
+                                        <input type="text" class="form-control datetimepicker-input" id="datetime" placeholder="Date & Time" data-target="#date3" data-toggle="datetimepicker" />
+                                        <label for="datetime">Date & Time</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <select class="form-select" id="select1">
+                                          <option value="1">People 1</option>
+                                          <option value="2">People 2</option>
+                                          <option value="3">People 3</option>
+                                        </select>
+                                        <label for="select1">No Of People</label>
+                                      </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Special Request" id="message" style="height: 100px"></textarea>
+                                        <label for="message">Special Request</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Book Now</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- 16:9 aspect ratio -->
+                        <div class="ratio ratio-16x9">
+                            <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                                allow="autoplay"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Reservation Start -->
+
+
+        <!-- Team Start -->
+        <div class="container-xxl pt-5 pb-3">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Team Members</h5>
+                    <h1 class="mb-5">Our Master Chefs</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/team-1.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">Full Name</h5>
+                            <small>Designation</small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/team-2.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">Full Name</h5>
+                            <small>Designation</small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/team-3.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">Full Name</h5>
+                            <small>Designation</small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/team-4.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">Full Name</h5>
+                            <small>Designation</small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+        
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
+                        <a class="btn btn-link" href="">About Us</a>
+                        <a class="btn btn-link" href="">Contact Us</a>
+                        <a class="btn btn-link" href="">Reservation</a>
+                        <a class="btn btn-link" href="">Privacy Policy</a>
+                        <a class="btn btn-link" href="">Terms & Condition</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
+                        <h5 class="text-light fw-normal">Monday - Saturday</h5>
+                        <p>09AM - 09PM</p>
+                        <h5 class="text-light fw-normal">Sunday</h5>
+                        <p>10AM - 08PM</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
+                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved. 
+							
+							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a><br><br>
+                            Distributed By <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">Home</a>
+                                <a href="">Cookies</a>
+                                <a href="">Help</a>
+                                <a href="">FQAs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
